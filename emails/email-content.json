@@ -1,0 +1,12 @@
+{
+    "start": "<p style=\"font-family: 'Open Sans', 'sans-serif';\"> Hello there! </p> <p style=\"font-family: 'Open Sans', 'sans-serif';\">We noticed that you've been working hard and enjoying some code automation 👨‍💻</p> <p style=\"font-family: 'Open Sans', 'sans-serif';\"> So, we thought about sharing some insights of your week's usage 📊</p>",
+    "end": "<p style=\"font-family: 'Open Sans', 'sans-serif';\"> Looks like you had a busy week working with our tools & services. <a href=\"https://app.hubspot.com/meetings/username\">Book a Demo</a> right now to learn what more you can do with our platform 👌.</p><br/><p style=\"font-family: 'Open Sans', 'sans-serif';\">Have a Great Day! 😇</p><br/><p  style=\"font-family: 'Open Sans', 'sans-serif'; font-size:14px;\"> User Experience Manager,</p><p style=\"font-family: 'Open Sans', 'sans-serif'; font-size:14px;\"> Maham Shahid</p>",
+    "cta": {
+        "portal": "Here's something more you can do with APIMatic. Generate a portal today!",
+        "portalAndSdk": "Here's something more you can do with APIMatic. Generate a portal with SDKs today!",
+        "portalAndTransformer": "Here's something more you can do with APIMatic. Generate a portal with transformer today!"
+    },
+    "from": "maham.shahid@apimatic.io",
+    "subject":"Your weekly usage update from APIMatic",
+    "outlineText": "We noticed that you're loving our service 😍. Here's some insights 😃"
+}
