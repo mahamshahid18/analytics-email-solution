@@ -28,6 +28,11 @@ The implementation specific logic has been divided into related, manageable 'mod
 * The `emails` folder contains an [`email-content.json`](https://github.com/mahamshahid18/analytics-email-solution/blob/master/emails/email-content.json) file which holds some of the generic content for the email body. There is also an [`email-generator`](https://github.com/mahamshahid18/analytics-email-solution/blob/master/emails/email-generator.mjs) file which generates the whole body of the email in parts
 * The [`index.mjs`](https://github.com/mahamshahid18/analytics-email-solution/blob/master/index.mjs) file basically executes its functionality according to a scheduled time. Whenever the scheduled time arrives, this file would first call the `QueryProcessor` class to fetch usage stats of all the users whose emails have been populated in the JSON file. When the data has been completely populated in the JSON file, this file then calls `EmailGenerator` class to generate the HTML for the emails, sends out these emails and then creates a log file for future storage purposes
 
+Here's a screenshot of the generated email content:
+
+![analytics-email-email-screenshot](https://user-images.githubusercontent.com/12479952/45786727-404c0500-bc8b-11e8-8816-9251cd3f72bc.PNG)
+
+
 ## The challenges
 One major challenge that I came across was the **meticulate planning required** to get all the different parts to work together. Another major concern was **learning JQL**. There wasn't a lot of help material available so some starter code from a colleague, and trial-and-error eventually helped me figure it out. **Testing** the different parts of the application was also a tedious task.
 
